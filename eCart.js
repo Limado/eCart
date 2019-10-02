@@ -137,7 +137,8 @@ class eCart {
             }
         });
     }
-
+    
+    /** For emailing purpose only */
     toHtmlTable(){
         let totalPrice = 0;
         let table = "<table border='1'><thead><th>Producto</th><th>Precio</th><th>Cantidad</th><th>Total</th></thead>";
